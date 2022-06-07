@@ -1,0 +1,86 @@
+body {
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    text-align: center;
+}
+
+body h1 {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    position: relative;
+    display: inline-block;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    font-size: 3em;
+    padding: 5px 60px;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.form-check-input {
+    width: 3em;
+    height: 3em;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 0.5em;
+}
+
+.list-group-item:last-child {
+    border-radius: 0.5em;
+}
+
+.form-check-label {
+    height: 3.5em;
+}
+
+.mb-2 {
+    width: 3em;
+    margin-top: 0.25em;
+    height: 3em;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: blue;
+    font-size: larger;
+    background: -webkit-linear-gradient(right, rgb(0, 229, 255), rgba(0, 0, 255, 0.769) 33.3%, rgb(15, 15, 201) 33.3%, rgb(15, 15, 201) 66.6%, rgba(0, 0, 255, 0.769) 66.6%, rgb(0, 229, 255)) bottom no-repeat;
+    background: -o-linear-gradient(right, rgb(0, 229, 255) 0, rgba(0, 0, 255, 0.769) 33.3%, rgb(15, 15, 201) 33.3%, rgb(15, 15, 201) 66.6%, rgba(0, 0, 255, 0.769) 66.6%, rgb(0, 229, 255)) bottom no-repeat;
+    background: linear-gradient(to right, rgb(0, 229, 255) 0, rgba(0, 0, 255, 0.769) 33.3%, rgb(15, 15, 201) 33.3%, rgb(15, 15, 201) 66.6%, rgba(0, 0, 255, 0.769) 66.6%, rgb(0, 229, 255)) bottom no-repeat;
+    background-size: 70% 5px;
+}
+
+.nav_link:hover {
+    background-size: 100% 5px;
+}
+
+.check-check:focus {
+    user-select: none;
+    outline: none;
+    outline-offset: 0;
+    box-shadow: none;
+    border-color: rgba(128, 128, 128, 0.815)
+}
+
+.check-check:checked {
+    border-color: #169c33;
+    background-color: #18c008;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+.check-check:hover {
+    box-shadow: 0 0 0 0.2rem rgba(22, 159, 52, 0.25);
+    border-color: #28921e;
+}
+
+.btn-danger:hover {
+    background-color: red;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+    border-color: #ff0000;
+}
