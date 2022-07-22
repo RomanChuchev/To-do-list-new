@@ -50,6 +50,7 @@ body h1 {
 .nav {
     margin-bottom: 10px;
 }
+
 .nav_link {
     text-decoration: none;
     color: blue;
@@ -87,4 +88,9 @@ body h1 {
     background-color: red;
     box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
     border-color: #ff0000;
+}
+
+.nav_link {
+    display: inline-block;
+    margin-right: 20px;
 }
