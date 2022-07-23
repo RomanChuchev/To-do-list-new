@@ -149,8 +149,7 @@ function createTodoApp(container, tittle, key) {
         // Проходимся по массиву с объектами
         for (const obj of todoArray) {
             const todoItem = createTodoItem(appForm.input.value)
-
-            // Имя объекта записыааем в Item
+                // Имя объекта записыааем в Item
             todoItem.todoItem.textContent = obj.name;
             // Присваиваю id этого объекта
             todoItem.todoItem.id = obj.id
