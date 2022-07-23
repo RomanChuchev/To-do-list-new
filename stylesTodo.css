@@ -39,7 +39,8 @@ body h1 {
 }
 
 .form-check-label {
-    height: 3.5em;
+    margin-top: 5px;
+    height: 3em;
 }
 
 .mb-2 {
