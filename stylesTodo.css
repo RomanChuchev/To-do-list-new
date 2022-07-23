@@ -3,6 +3,7 @@ body {
     font-size: 16px;
     font-weight: normal;
     font-family: 'Times New Roman', Times, serif;
+    background: url('https://images.unsplash.com/photo-1532153955177-f59af40d6472?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80');
 }
 
 .container {
